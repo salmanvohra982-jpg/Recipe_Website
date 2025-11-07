@@ -200,11 +200,17 @@ tr:nth-child(even){
     text-align: left;
 }
 
-@media only screen and (max-width: 679px){
-    body {
+@media only screen and (max-width: 768px){
+   /* body {
         min-width: 500px;
-        background-color: #333333;
+        background-color: #333333;  -- Becouse of this website was opening zoomed-in
         color: #ffffff;
+    }*/
+
+    body {
+    width: 100%;
+    background-color: #333333;
+    color: #ffffff;
     }
 
     header, nav, main, aside, footer {
