@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="image/logo-2.png" alt="Spice Safari Logo" width="100" height="100">
+        <h1>Spice Safari</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="Recipes.html">Recipes</a></li>
+            <li><a href="Contect.html">Contect</a></li>
+            <li><a href="Sitemap.html">Sitemap</a></li>
+        </ul>
+    </nav>
+    <main>
+      <h2>Contact Us</h2>
+            <form>
+            <div class="gep">
+            <fieldset>
+                <legend>Your Information</legend>
+                <div class="contact-info">
+                <label for="name">Your Name: </label>
+                <input type="text" id="name" name="name" required placeholder="Write your name here"> 
+              </div>
+              <div class="contact-info">
+                <label for="num">Your Phone Number: </label>
+                <input type="tel" id="num" name="num" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+              </div>
+              <div class="contact-info">
+                <label for="email">Your Email: </label>
+                <input type="email" id="email" name="email" required placeholder="someone13@xyz.com">
+              </div>
+            </fieldset>
+          </div>
+            <div class="gep">
+                <fieldset>
+                  <legend>How did you like the recipes?</legend>
+                  
+                  <div class="contact-info">
+                  <label>
+                    <input type="radio" name="recipeRating" value="good">
+                    Good
+                  </label>
+                  </div>
+                  <div class="contact-info">
+                  <label>
+                    <input type="radio" name="recipeRating" value="very-good">
+                    Very Good
+                  </label>
+                  </div>
+                  <div class="contact-info">
+                  <label>
+                    <input type="radio" name="recipeRating" value="neutral">
+                    Neutral
+                  </label>
+                  </div>
+                  <div class="contact-info">
+                  <label>
+                    <input type="radio" name="recipeRating" value="bad">
+                    Bad
+                  </label>
+                  </div>
+                  <div class="contact-info">
+                  <label>
+                    <input type="radio" name="recipeRating" value="very-bad">
+                    Very Bad
+                  </label>
+                  </div>
+                    <p>Recipe to improve</p>
+                    <div class="contact-info">
+                    <label for="recipeImprove">Recipe Name: </label>
+                    <select id="recipeImprove" name="recipeImprove">
+                      <option value="dal">Dal</option>
+                      <option value="biryani">Biryani</option>
+                      <option value="egg-curry">Egg Curry</option>
+                      <option value="chicken-curry">Chicken Curry</option>
+                    </select>
+                    </div>
+                    <div class="contact-info">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback"></textarea>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="gep">
+            <fieldset>
+                <legend>Racipe To Add</legend>
+                <div class="contact-info">
+                <label for="recipeName">Recipe Name: </label>
+                <input type="text" id="recipeName" name="recipeName">
+                </div>
+                <div class="contact-info">
+                <label for="recipeingrediants">Recipe Ingredients:</label>
+                <textarea id="recipeingrediants" name="recipeingrediants"></textarea>
+                </div>
+                <div class="contact-info">
+                <label for="recipePreparation">Recipe Preparation:</label>
+                <textarea id="recipePreparation" name="recipePreparation"></textarea>
+                </div>
+                <div class="contact-info">
+                <label for="recipeInstructions">Recipe Instructions:</label>
+                <textarea id="recipeInstructions" name="recipeInstructions"></textarea>
+                </div>
+            </fieldset>
+            </div>
+            <div class="gep">
+            <fieldset>
+                <legend>Submit Form</legend>
+                <div class="contact-info">
+                <label for="submit">Submit: </label>
+                <input type="submit" id="submit" name="submit">
+                </div>
+                <div class="contact-info">
+                <label for="reset">Reset: </label> 
+                <input type="reset" id="reset" name="reset">  
+                </div>
+            </fieldset>
+            </div>
+            </form>
+        </main>
+        <aside>
+            <img src="image/chef.jpg" alt="image of chef">
+            <P>phone: (432) 456-7890</P>
+            <p>Email: <a href="mailto:sanjeev123@kapoor.ca">sanjeev123@kapoor.ca</a></p>
+        </aside>
+        <footer>Copyright &copy; 2025</footer>
+</body>
+</html>
